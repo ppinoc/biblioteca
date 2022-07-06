@@ -9,15 +9,15 @@ package biblioteca;
  *
  * @author peeet
  */
-public class Biblioteca {
+public class Libro {
     private int codigol;
     private String titulo, autor, tematica;
     private String disponibilidad, localizacion;
 
-    public Biblioteca() {
+    public Libro() {
     }
 
-    public Biblioteca(int codigol, String titulo, String autor, String tematica, String disponibilidad, String localizacion) {
+    public Libro(int codigol, String titulo, String autor, String tematica, String disponibilidad, String localizacion) {
         this.codigol = codigol;
         this.titulo = titulo;
         this.autor = autor;
